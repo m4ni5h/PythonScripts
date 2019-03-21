@@ -111,7 +111,7 @@ def PredictTrials(X, y, fitter, data):
     # Store the predicted prices
     prices = []
 
-    for k in range(10):
+    for k in range(100):
         # Split the data
         X_train, X_test, y_train, y_test = train_test_split(X, y, \
             test_size = 0.2, random_state = k)
