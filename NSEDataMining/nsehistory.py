@@ -1,0 +1,30 @@
+from nsepy import get_history
+from datetime import date
+
+#data = get_history(symbol="SBIN", start=date(2015,1,1), end=date(2015,1,31))
+
+
+nifty_pe = get_history(symbol="NIFTY", start=date(2009,3,31), end=date(2009,3,31), index=True)
+print(nifty_pe)
+nifty_pe = get_history(symbol="NIFTY", start=date(2010,3,31), end=date(2010,3,31), index=True)
+print(nifty_pe)
+nifty_pe = get_history(symbol="NIFTY", start=date(2011,3,31), end=date(2011,3,31), index=True)
+print(nifty_pe)
+nifty_pe = get_history(symbol="NIFTY", start=date(2012,3,30), end=date(2012,3,30), index=True)
+print(nifty_pe)
+nifty_pe = get_history(symbol="NIFTY", start=date(2013,3,28), end=date(2013,3,28), index=True)
+print(nifty_pe)
+nifty_pe = get_history(symbol="NIFTY", start=date(2014,3,31), end=date(2014,3,31), index=True)
+print(nifty_pe)
+nifty_pe = get_history(symbol="NIFTY", start=date(2015,3,31), end=date(2015,3,31), index=True)
+print(nifty_pe)
+nifty_pe = get_history(symbol="NIFTY", start=date(2016,3,31), end=date(2016,3,31), index=True)
+print(nifty_pe)
+nifty_pe = get_history(symbol="NIFTY", start=date(2017,3,31), end=date(2017,3,31), index=True)
+print(nifty_pe)
+nifty_pe = get_history(symbol="NIFTY", start=date(2018,3,28), end=date(2018,3,28), index=True)
+print(nifty_pe)
+nifty_pe = get_history(symbol="NIFTY", start=date(2019,3,29), end=date(2019,3,29), index=True)
+print(nifty_pe)
+nifty_pe = get_history(symbol="NIFTY", start=date(2020,3,31), end=date(2020,3,31), index=True)
+print(nifty_pe)
