@@ -1,7 +1,7 @@
 import csv, sqlite3
 import pandas
 
-con = sqlite3.connect("/home/deeplearning/Documents/PythonScripts/MiningDB.sqlite3")
+con = sqlite3.connect("MiningDB.sqlite3")
 cur = con.cursor()
 
 # Dataset from: https://www1.nseindia.com/corporates/corporateHome.html?id=equity
