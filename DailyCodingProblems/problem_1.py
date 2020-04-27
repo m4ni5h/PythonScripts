@@ -4,9 +4,7 @@ def check_sub(array, k):
         if num in sub_result:
             return True
         sub_result.add(k - num)
-
     return False
-
 
 def check_sub1(array, k):
     for num1 in array:
@@ -15,7 +13,6 @@ def check_sub1(array, k):
             if num1 + num2 == k:
                 return True
     return False
-
 
 assert not check_sub([], 17)
 assert check_sub([10, 15, 3, 7], 17)
