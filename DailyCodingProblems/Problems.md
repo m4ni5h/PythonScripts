@@ -50,8 +50,6 @@ def cons(a, b):
 ```
 Implement car and cdr.
 
-
-
 ---
 
 #### Problem 6
