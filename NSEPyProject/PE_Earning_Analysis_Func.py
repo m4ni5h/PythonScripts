@@ -134,7 +134,7 @@ Indices = ["NIFTY 50", "NIFTY AUTO", "NIFTY BANK", "NIFTY IT", "NIFTY REALTY", "
            # "NIFTY FINANCIAL SERVICES",
            "NIFTY FMCG", "NIFTY METAL", "NIFTY PHARMA"
            # , "NIFTY INFRASTRUCTURE"
-            ]
+           ]
 for nseindex in Indices:
     print(nseindex)
     earninganalysis(nseindex)

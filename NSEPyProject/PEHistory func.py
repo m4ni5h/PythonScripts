@@ -20,4 +20,4 @@ def PEhistory(indexsymbol):
     return nifty_pe
 
 
-PEhistory("NIFTY")#.to_csv('PEHistory.csv')
+PEhistory("NIFTY")  # .to_csv('PEHistory.csv')
